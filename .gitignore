@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+client/node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Base de datos (opcional - puedes incluirla si quieres)
+database.sqlite
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build del cliente
+client/build/
+client/dist/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Uploads (archivos subidos por usuarios)
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporal
+tmp/
+temp/
